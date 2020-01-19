@@ -1,0 +1,84 @@
+.text-shadow_white{
+    text-shadow:1px 1px 2px #101930b9 , 1px 1px 2px #25365d;
+    font-size: 22px;
+    color: white;
+    text-decoration: none;
+}
+.text-shadow_black{
+    text-shadow:1px 1px 2px #7c7c7cb9 , 1px 1px 2px #8a8a8a;
+}
+.text_color-blue{
+    color: #25365d;
+}
+
+.article_background1{
+    background-image: url(../img/top-background.png);
+    background-size:  100% 1830px;
+    background-repeat: no-repeat;
+    background-attachment: local;
+}
+
+
+.background_img_top_section1{
+    background-image: url(../img/top-background.png);
+    background-size: 100% 1830px;
+    background-attachment: local;
+    background-repeat: no-repeat;
+}
+.background_color{
+    background-color: black;
+}
+
+.background_img__mac_book{
+    background-image: url(../img/article_mac/Mac_book.png);
+    background-size: 58% 93%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: local;
+}
+.article_background5{
+    background-image: url(../img/background_article_5.png);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+    background-attachment: local;
+    height: 1100px;
+}
+.button{
+    border-radius: 28px;
+    border-color: #25365d;
+    width: 220px;
+    height: 55px;
+    background-color: #25365d;
+    color: white;
+    font-size: 18px;
+}
+.article_3__background_color{
+    background-color: #f0f0f0;
+}
+.plan-color{
+    background-color: white;
+    box-shadow: 0px 0px 25px 5px rgba(138, 138, 138, 0.363);
+}
+
+.margin{
+    margin-top:67%;
+}
+
+
+
+
+.font_size_24px{ 
+    font-size: 24px;
+}
+.font_size_50px{ 
+    font-size: 35px;
+}
+.font_size_18px{ 
+    font-size: 18px;
+}
+.font_size_800pers{
+    font-size: 800%;
+}
+.font_size_72px{ 
+    font-size: 72px;
+}
