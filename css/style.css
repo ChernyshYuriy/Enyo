@@ -1,3 +1,7 @@
+body{
+    margin: 0;
+    padding: 0;
+}
 .text-shadow_white{
     text-shadow:1px 1px 2px #101930b9 , 1px 1px 2px #25365d;
     font-size: 22px;
@@ -31,7 +35,7 @@
 
 .background_img__mac_book{
     background-image: url(../img/article_mac/Mac_book.png);
-    background-size: 58% 93%;
+    background-size: 53% 70%;
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: local;
@@ -46,6 +50,7 @@
 .button{
     border-radius: 28px;
     border-color: #25365d;
+    color: rgb(0, 119, 119);
     width: 220px;
     height: 55px;
     background-color: #25365d;
@@ -59,19 +64,21 @@
     background-color: white;
     box-shadow: 0px 0px 25px 5px rgba(138, 138, 138, 0.363);
 }
-
 .margin{
     margin-top:67%;
 }
 
-
-
-
 .font_size_24px{ 
     font-size: 24px;
 }
+.font_size_40px{ 
+    font-size: 40px;
+}
 .font_size_50px{ 
     font-size: 35px;
+}
+.font_size_64px{ 
+    font-size: 64px;
 }
 .font_size_18px{ 
     font-size: 18px;
@@ -81,4 +88,142 @@
 }
 .font_size_72px{ 
     font-size: 72px;
+}
+
+.article_4__card-deck{
+margin: auto;
+}
+
+
+
+.article_3{
+    display: flex;
+    flex-direction: column;
+    padding: 10px 0;
+}
+.article_3__element{
+    display: flex;
+    flex-direction: column;
+}
+
+.article_3__section_1, .article_3__section_2{
+    display: flex;
+    flex-direction: row;
+}
+
+.article_3__section_1{
+    margin: 80px 0 0 0;
+    padding: 0;
+}
+.article_3__section_2{
+    margin: 80px 0 0 0;
+    padding: 0;
+}
+.section_1__element_2{
+    display: flex;
+    align-items: flex-end;
+    text-align: end;
+    padding: 0;
+    margin: 0;
+}
+
+.section_2__element_2{
+display: flex;
+align-items: flex-end;
+text-align: right;
+padding: 0;
+margin: 0;
+}
+
+.section_2__element_1 .position_absolute_section_2{
+    margin-top: 40px;
+} 
+
+.position_absolute_section_2{
+    position: absolute;
+    margin-top: 15px;
+}
+
+.position_absolute_section_1{
+    position: absolute;
+    margin-top: 10%;
+}
+
+@media only screen and (max-width:977px) {
+    .article_3{
+        align-items: center;
+        justify-content: center;
+        padding: 20px 0;
+    }
+    .article_3__element h6{
+        color: #25365d;
+        text-shadow: 1px 0 2px #002d96af;
+        font-size: 26px;
+    }
+
+    .background_img__mac_book{
+        background-size: 0 0;
+    }
+    .article_3__section_1, .article_3__section_2{
+        display: flex;
+        flex-direction: column;
+    }
+    .article_3__section_2{
+        margin: 0;
+    }
+
+
+    .article_3__element{
+        border: 2px solid #25365dad;
+        margin: 20px 0;
+        border-radius: 12px;
+        background: linear-gradient(rgba(2, 0, 36, 0.26) 0%, rgba(19, 19, 163, 0.5));
+    }
+    
+    .section_1__element_1{
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+    .section_1__element_2{
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    
+    .section_2__element_1{
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+    
+    .section_2__element_2{
+        align-items: center;
+        justify-content: center;
+        text-align: center;
+    }
+
+
+    .section_2__element_1 .position_absolute_section_2{
+        margin-top: 0;
+    } 
+
+    .article_3__element img{
+        display: none;
+    }
+
+    .position_absolute_section_2{
+        position: relative;
+        margin-top: 0;
+    }
+    
+    .position_absolute_section_1{
+        position: relative;
+        margin-top: 0;
+    }
+
+    .font_size_72px{ 
+        font-size: 45px;
+    }
 }
